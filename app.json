@@ -1,0 +1,26 @@
+{
+  "name": "Discourse",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/rails/rails"
+    },
+    {
+      "url": "heroku/Ember.js"
+    },
+    {
+      "url": "heroku/PostgreSQL"
+    },
+    {
+      "url": "heroku/Redis"
+    }
+  ]
+}
